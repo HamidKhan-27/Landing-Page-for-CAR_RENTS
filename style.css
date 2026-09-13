@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: min(90%, 1200px);
+  margin: 20px auto;
+}
+
+nav img {
+  width: 116px;
+  height: 25px;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+}
+
+ul a {
+  text-decoration: none;
+  color: #484848;
+}
+
+ul li {
+  list-style: none;
+  font-size: 18px;
+}
+
+.sign-in {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+  font-size: 18px;
+}
+
+.sign-in:hover {
+  font-weight: bold;
+}
+
+.sign-up {
+  background-color: #1572d3;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.sign-up:hover {
+  opacity: 0.8;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  padding: 100px 0px 80px 100px;
+}
+
+.hero-left {
+  padding: 20px 80px;
+}
+
+.hero-left h1 {
+  color: #242424;
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #272727;
+  max-width: 400px;
+}
+
+.hero-left h1 span {
+  color: #1572d3;
+}
+
+.hero-right img {
+  max-width: 100%;
+}
+
+.btns-container {
+  display: flex;
+  gap: 15px;
+  padding: 30px 0;
+}
+
+.android {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.android i {
+  font-size: 22px;
+}
+
+.android:hover {
+  opacity: 0.8;
+}
+
+.apple {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.apple i {
+  font-size: 25px;
+}
+
+.apple:hover {
+  opacity: 0.8;
+}
+
+.hero-bottom {
+  display: flex;
+  height: 72px;
+  width: 860px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 12px;
+  margin-top: 0px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px;
+  margin-left: 10px;
+  width: 255px;
+}
+
+.card i {
+  font-size: 25px;
+  color: #747474;
+}
+
+.card h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card p {
+  font-size: 14px;
+  color: #b6b6b6;
+}
+
+.search-btn {
+  padding: 12px 45px;
+  background-color: #1572d3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-btn:hover {
+  opacity: 0.8;
+}
