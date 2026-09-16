@@ -599,3 +599,109 @@ hr {
 .customer2 img {
   height: 100%;
 }
+
+.last-section {
+  margin: 150px 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-span {
+  background-color: #1571d330;
+  color: #1572d3;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 15px 25px;
+  border-radius: 6px;
+}
+
+.last-left h1 {
+  max-width: 500px;
+  font-size: 48px;
+  font-weight: 500;
+  color: #282828;
+  margin-top: 15px;
+  line-height: 1.2;
+}
+
+.last-left h1 span {
+  color: #1572d3;
+  font-weight: 600;
+}
+
+.last-left p {
+  font-size: 16px;
+  color: #3e3e3e;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.last-right {
+  width: 500px;
+  background-image: url("./images/main.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.last-right img {
+  margin: 0 14px;
+  margin-top: 30px;
+  max-height: 500px;
+}
+
+footer {
+  position: relative;
+  z-index: 10;
+  margin-top: -17px;
+  background-color: #051c34;
+  color: #ffffff;
+}
+
+.footer-content {
+  padding: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  opacity: 0.9;
+  padding-bottom: 100px;
+}
+
+.first-coulum {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.coulum i {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.first-coulump {
+  margin-bottom: 10px;
+}
+
+.coulum h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.coulum p {
+  font-size: 15px;
+}
+
+.foot {
+  border-top: 1px solid gray;
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.foot p {
+  font-size: 14px;
+}
